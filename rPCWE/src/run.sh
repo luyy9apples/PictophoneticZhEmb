@@ -1,0 +1,2 @@
+
+./rpcwe -train ../../data/wikisimplecor_used.txt -output-word word_vec-3-win7-size150-it75.txt -output-char char_vec -output-comp comp_vec -output-pinyin pinyin_vec -size 150 -window 7 -sample 1e-4 -negative 10 -iter 75 -threads 8 -min-count 10 -alpha 0.025 -binary 0 -comp ../subcharacter/comp2.txt -char2comp ../subcharacter/char2comp2.txt -pinyin ../subcharacter/pinyinp.txt -char2pinyin ../subcharacter/charpinyin.txt -join-type 1 -pos-type 3 -average-sum 1
